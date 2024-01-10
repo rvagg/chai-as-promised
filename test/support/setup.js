@@ -3,7 +3,7 @@ import chaiAsPromised from "../../lib/chai-as-promised.js";
 
 chai.should();
 chai.use(chaiAsPromised);
-export default chai
+export default chai;
 const { assert, expect } = chai;
 export { assert, expect };
 

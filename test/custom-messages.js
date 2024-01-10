@@ -1,6 +1,5 @@
-import _ from "./support/setup.js";
-import { shouldPass } from "./support/common.js";
-import { shouldFail } from "./support/common.js";
+import "./support/setup.js";
+import { shouldPass, shouldFail } from "./support/common.js";
 
 describe("Custom messages", () => {
     let promise = null;

@@ -24,18 +24,24 @@
     "lib"
   ],
   "scripts": {
-    "test": "mocha",
-    "test-travis": "npm install chai@$CHAI_VERSION && npm test",
-    "lint": "eslint .",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha && opener ./coverage/lcov-report/lib/chai-as-promised.js.html"
+    "build": "true",
+    "test": "npm run lint && mocha",
+    "lint": "eslint ."
   },
   "dependencies": {
     "check-error": "^2.0.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
     "chai": "^5.0.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "^8.56.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "semantic-release": "^22.0.12"
   }
 }

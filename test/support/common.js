@@ -1,13 +1,13 @@
-export const shouldPass = promiseProducer => {
+export function shouldPass(promiseProducer) {
     it("should return a fulfilled promise", done => {
         promiseProducer().then(
             () => done(),
             reason => done(new Error(`Expected promise to be fulfilled but it was rejected with ${reason.stack}`))
         );
     });
-};
+}
 
-export const shouldFail = options => {
+export function shouldFail(options) {
     const promiseProducer = options.op;
     const desiredMessageSubstring = options.message;
     const nonDesiredMessageSubstring = options.notMessage;
@@ -35,4 +35,4 @@ export const shouldFail = options => {
             }
         ).then(done, done);
     });
-};
+}

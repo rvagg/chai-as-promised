@@ -1,6 +1,5 @@
 import { expect } from "./support/setup.js";
-import { shouldPass } from "./support/common.js";
-import { shouldFail } from "./support/common.js";
+import { shouldPass, shouldFail } from "./support/common.js";
 
 describe("Promise-specific extensions:", () => {
     let promise = null;

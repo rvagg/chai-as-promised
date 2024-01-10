@@ -1,4 +1,4 @@
-import _ from "./support/setup.js";
+import "./support/setup.js";
 import chaiAsPromised from "../lib/chai-as-promised.js";
 const originalTransferPromiseness = chaiAsPromised.transferPromiseness;
 
