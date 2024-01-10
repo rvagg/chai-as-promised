@@ -1,6 +1,4 @@
-"use strict";
-
-exports.shouldPass = promiseProducer => {
+export const shouldPass = promiseProducer => {
     it("should return a fulfilled promise", done => {
         promiseProducer().then(
             () => done(),
@@ -9,7 +7,7 @@ exports.shouldPass = promiseProducer => {
     });
 };
 
-exports.shouldFail = options => {
+export const shouldFail = options => {
     const promiseProducer = options.op;
     const desiredMessageSubstring = options.message;
     const nonDesiredMessageSubstring = options.notMessage;

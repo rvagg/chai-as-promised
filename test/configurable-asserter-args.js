@@ -1,7 +1,6 @@
-"use strict";
-require("./support/setup.js");
-const chaiAsPromised = require("..");
-const originalTransformAsserterArgs = require("..").transformAsserterArgs;
+import _ from "./support/setup.js";
+import chaiAsPromised from "../lib/chai-as-promised.js";
+const originalTransformAsserterArgs = chaiAsPromised.transformAsserterArgs;
 
 describe("Configuring the way in which asserter arguments are transformed", () => {
     beforeEach(() => {

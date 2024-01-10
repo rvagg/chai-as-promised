@@ -1,7 +1,6 @@
-"use strict";
-require("./support/setup.js");
-const chaiAsPromised = require("..");
-const originalTransferPromiseness = require("..").transferPromiseness;
+import _ from "./support/setup.js";
+import chaiAsPromised from "../lib/chai-as-promised.js";
+const originalTransferPromiseness = chaiAsPromised.transferPromiseness;
 
 describe("Configuring the way in which promise-ness is transferred", () => {
     afterEach(() => {

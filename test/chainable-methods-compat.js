@@ -1,7 +1,7 @@
-"use strict";
-const chai = require("chai");
-const chaiAsPromised = require("..");
-const expect = chai.expect;
+import chai from "./support/setup.js";
+import chaiAsPromised from "../lib/chai-as-promised.js";
+
+const { expect } = chai;
 
 function newMethod() {
     // Do nothing

@@ -1,8 +1,6 @@
-"use strict";
-require("./support/setup.js");
-const shouldPass = require("./support/common.js").shouldPass;
-const shouldFail = require("./support/common.js").shouldFail;
-const assert = require("chai").assert;
+import { assert } from "./support/setup.js";
+import { shouldPass } from "./support/common.js";
+import { shouldFail } from "./support/common.js";
 
 describe("Assert interface:", () => {
     let promise = null;
