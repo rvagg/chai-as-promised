@@ -1,3 +1,13 @@
+***`@rvagg/chai-as-promised` is a fork of [chai-as-promised](https://github.com/domenic/chai-as-promised) converted to ESM, supports Chai v5+ and bundles types natively.***
+
+```js
+import * as chai from "chai"
+import chaiAsPromised from "chai-as-promised"
+
+chai.use(chaiAsPromised);
+const { assert, expect } = chai;
+```
+
 <a href="http://promisesaplus.com/">
     <img src="https://promises-aplus.github.io/promises-spec/assets/logo-small.png"
          align="right" valign="top" alt="Promises/A+ logo" />
