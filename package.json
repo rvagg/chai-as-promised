@@ -15,7 +15,7 @@
   "version": "7.1.1",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me)",
   "license": "WTFPL",
-  "repository": "domenic/chai-as-promised",
+  "repository": "rvagg/chai-as-promised",
   "exports": {
     ".": "./lib/chai-as-promised.js"
   },
