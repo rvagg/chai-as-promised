@@ -1,5 +1,5 @@
 {
-  "name": "chai-as-promised",
+  "name": "@rvagg/chai-as-promised",
   "description": "Extends Chai with assertions about promises.",
   "type": "module",
   "keywords": [
@@ -19,6 +19,7 @@
   "exports": {
     ".": "./lib/chai-as-promised.js"
   },
+  "types": "index.d.ts",
   "files": [
     "lib"
   ],
