@@ -26,6 +26,7 @@
   "scripts": {
     "build": "true",
     "test": "npm run lint && mocha",
+    "test:ci": "npm run test",
     "lint": "eslint ."
   },
   "dependencies": {
