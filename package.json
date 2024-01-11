@@ -12,7 +12,7 @@
     "promises",
     "promises-aplus"
   ],
-  "version": "8.0.0",
+  "version": "8.0.1",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me)",
   "license": "WTFPL",
   "repository": "git+https://github.com/rvagg/chai-as-promised.git",

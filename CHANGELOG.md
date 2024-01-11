@@ -1,3 +1,10 @@
+## [8.0.1](https://github.com/rvagg/chai-as-promised/compare/v8.0.0...v8.0.1) (2024-01-11)
+
+
+### Trivial Changes
+
+* remove check-error dependency, not needed with latest chai ([d845208](https://github.com/rvagg/chai-as-promised/commit/d8452085d95251880729cd43fd1a51cb6a89929e))
+
 ## [8.0.0](https://github.com/rvagg/chai-as-promised/compare/v7.1.3...v8.0.0) (2024-01-10)
 
 
