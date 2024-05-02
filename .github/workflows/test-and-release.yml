@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-node@v4.0.0
         with:
           node-version: lts/*
-      - if: runner.os == 'Windows'
+      - if: runner.os == 'windows-latest'
         # temporary, see https://github.com/nodejs/node/issues/52682
         shell: bash
         run: |
